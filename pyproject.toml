@@ -1,0 +1,13 @@
+[project]
+name = "gitHub-user-activity"
+version = "1.0.0"
+description = "CLI application for displaying GitHub user activity"
+requires-python = ">=3.10"
+
+[project.scripts]
+github-activity = "main:main"
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
